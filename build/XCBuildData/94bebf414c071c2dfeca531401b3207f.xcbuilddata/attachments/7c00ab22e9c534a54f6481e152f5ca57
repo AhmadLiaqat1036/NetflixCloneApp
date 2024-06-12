@@ -1,0 +1,28 @@
+{
+  "" : {
+    "diagnostics" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone)UITests.build/Objects-normal/x86_64/DEV2(Netflix clone)UITests-master.dia",
+    "emit-module-dependencies" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone)UITests.build/Objects-normal/x86_64/DEV2(Netflix clone)UITests-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone)UITests.build/Objects-normal/x86_64/DEV2(Netflix clone)UITests-master-emit-module.dia",
+    "swift-dependencies" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone)UITests.build/Objects-normal/x86_64/DEV2(Netflix clone)UITests-master.swiftdeps"
+  },
+  "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/DEV2(Netflix clone)UITests/DEV2_Netflix_clone_UITests.swift" : {
+    "const-values" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone)UITests.build/Objects-normal/x86_64/DEV2_Netflix_clone_UITests.swiftconstvalues",
+    "dependencies" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone)UITests.build/Objects-normal/x86_64/DEV2_Netflix_clone_UITests.d",
+    "diagnostics" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone)UITests.build/Objects-normal/x86_64/DEV2_Netflix_clone_UITests.dia",
+    "index-unit-output-path" : "/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone)UITests.build/Objects-normal/x86_64/DEV2_Netflix_clone_UITests.o",
+    "llvm-bc" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone)UITests.build/Objects-normal/x86_64/DEV2_Netflix_clone_UITests.bc",
+    "object" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone)UITests.build/Objects-normal/x86_64/DEV2_Netflix_clone_UITests.o",
+    "swift-dependencies" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone)UITests.build/Objects-normal/x86_64/DEV2_Netflix_clone_UITests.swiftdeps",
+    "swiftmodule" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone)UITests.build/Objects-normal/x86_64/DEV2_Netflix_clone_UITests~partial.swiftmodule"
+  },
+  "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/DEV2(Netflix clone)UITests/DEV2_Netflix_clone_UITestsLaunchTests.swift" : {
+    "const-values" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone)UITests.build/Objects-normal/x86_64/DEV2_Netflix_clone_UITestsLaunchTests.swiftconstvalues",
+    "dependencies" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone)UITests.build/Objects-normal/x86_64/DEV2_Netflix_clone_UITestsLaunchTests.d",
+    "diagnostics" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone)UITests.build/Objects-normal/x86_64/DEV2_Netflix_clone_UITestsLaunchTests.dia",
+    "index-unit-output-path" : "/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone)UITests.build/Objects-normal/x86_64/DEV2_Netflix_clone_UITestsLaunchTests.o",
+    "llvm-bc" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone)UITests.build/Objects-normal/x86_64/DEV2_Netflix_clone_UITestsLaunchTests.bc",
+    "object" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone)UITests.build/Objects-normal/x86_64/DEV2_Netflix_clone_UITestsLaunchTests.o",
+    "swift-dependencies" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone)UITests.build/Objects-normal/x86_64/DEV2_Netflix_clone_UITestsLaunchTests.swiftdeps",
+    "swiftmodule" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone)UITests.build/Objects-normal/x86_64/DEV2_Netflix_clone_UITestsLaunchTests~partial.swiftmodule"
+  }
+}

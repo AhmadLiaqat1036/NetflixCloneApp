@@ -1,0 +1,4 @@
+module SDWebImageMapKit {
+umbrella header "/Users/usear/Library/Developer/Xcode/DerivedData/DEV2(Netflix_clone)-deiyccasftgsbzcbapznbmhsnmkf/SourcePackages/checkouts/SDWebImage/SDWebImageMapKit/include/SDWebImageMapKit/SDWebImageMapKit.h"
+export *
+}

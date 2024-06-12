@@ -1,0 +1,2 @@
+Target dependency graph (1 target)
+Target 'DEV2(Netflix clone)' in project 'DEV2(Netflix clone)' (no dependencies)

@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+Target 'DEV2(Netflix clone)UITests' in project 'DEV2(Netflix clone)'
+➜ Explicit dependency on target 'DEV2(Netflix clone)' in project 'DEV2(Netflix clone)'
+Target 'DEV2(Netflix clone)Tests' in project 'DEV2(Netflix clone)'
+➜ Explicit dependency on target 'DEV2(Netflix clone)' in project 'DEV2(Netflix clone)'
+Target 'DEV2(Netflix clone)' in project 'DEV2(Netflix clone)' (no dependencies)

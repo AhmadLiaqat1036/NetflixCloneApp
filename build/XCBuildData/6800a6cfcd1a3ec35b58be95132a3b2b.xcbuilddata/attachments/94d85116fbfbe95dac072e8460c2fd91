@@ -1,0 +1,198 @@
+{
+  "" : {
+    "diagnostics" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/DEV2(Netflix clone)-master.dia",
+    "emit-module-dependencies" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/DEV2(Netflix clone)-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/DEV2(Netflix clone)-master-emit-module.dia",
+    "swift-dependencies" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/DEV2(Netflix clone)-master.swiftdeps"
+  },
+  "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/GeneratedAssetSymbols~partial.swiftmodule"
+  },
+  "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/DEV2(Netflix clone)/AppDelegate.swift" : {
+    "const-values" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/AppDelegate.swiftconstvalues",
+    "dependencies" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/AppDelegate.d",
+    "diagnostics" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/AppDelegate.dia",
+    "index-unit-output-path" : "/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/AppDelegate.o",
+    "llvm-bc" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/AppDelegate.bc",
+    "object" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/AppDelegate.o",
+    "swift-dependencies" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/AppDelegate.swiftdeps",
+    "swiftmodule" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/AppDelegate~partial.swiftmodule"
+  },
+  "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/DEV2(Netflix clone)/Controllers/Core/DownloadsViewController.swift" : {
+    "const-values" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/DownloadsViewController.swiftconstvalues",
+    "dependencies" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/DownloadsViewController.d",
+    "diagnostics" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/DownloadsViewController.dia",
+    "index-unit-output-path" : "/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/DownloadsViewController.o",
+    "llvm-bc" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/DownloadsViewController.bc",
+    "object" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/DownloadsViewController.o",
+    "swift-dependencies" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/DownloadsViewController.swiftdeps",
+    "swiftmodule" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/DownloadsViewController~partial.swiftmodule"
+  },
+  "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/DEV2(Netflix clone)/Controllers/Core/HomeViewController.swift" : {
+    "const-values" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/HomeViewController.swiftconstvalues",
+    "dependencies" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/HomeViewController.d",
+    "diagnostics" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/HomeViewController.dia",
+    "index-unit-output-path" : "/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/HomeViewController.o",
+    "llvm-bc" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/HomeViewController.bc",
+    "object" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/HomeViewController.o",
+    "swift-dependencies" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/HomeViewController.swiftdeps",
+    "swiftmodule" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/HomeViewController~partial.swiftmodule"
+  },
+  "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/DEV2(Netflix clone)/Controllers/Core/MainTabBarViewController.swift" : {
+    "const-values" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/MainTabBarViewController.swiftconstvalues",
+    "dependencies" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/MainTabBarViewController.d",
+    "diagnostics" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/MainTabBarViewController.dia",
+    "index-unit-output-path" : "/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/MainTabBarViewController.o",
+    "llvm-bc" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/MainTabBarViewController.bc",
+    "object" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/MainTabBarViewController.o",
+    "swift-dependencies" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/MainTabBarViewController.swiftdeps",
+    "swiftmodule" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/MainTabBarViewController~partial.swiftmodule"
+  },
+  "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/DEV2(Netflix clone)/Controllers/Core/SearchBarViewController.swift" : {
+    "const-values" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/SearchBarViewController-958822b0f66ac5f5fd6ac59b7d2a603d.swiftconstvalues",
+    "dependencies" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/SearchBarViewController-958822b0f66ac5f5fd6ac59b7d2a603d.d",
+    "diagnostics" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/SearchBarViewController-958822b0f66ac5f5fd6ac59b7d2a603d.dia",
+    "index-unit-output-path" : "/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/SearchBarViewController-958822b0f66ac5f5fd6ac59b7d2a603d.o",
+    "llvm-bc" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/SearchBarViewController-958822b0f66ac5f5fd6ac59b7d2a603d.bc",
+    "object" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/SearchBarViewController-958822b0f66ac5f5fd6ac59b7d2a603d.o",
+    "swift-dependencies" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/SearchBarViewController-958822b0f66ac5f5fd6ac59b7d2a603d.swiftdeps",
+    "swiftmodule" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/SearchBarViewController-958822b0f66ac5f5fd6ac59b7d2a603d~partial.swiftmodule"
+  },
+  "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/DEV2(Netflix clone)/Controllers/Core/UpcomingViewController.swift" : {
+    "const-values" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/UpcomingViewController.swiftconstvalues",
+    "dependencies" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/UpcomingViewController.d",
+    "diagnostics" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/UpcomingViewController.dia",
+    "index-unit-output-path" : "/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/UpcomingViewController.o",
+    "llvm-bc" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/UpcomingViewController.bc",
+    "object" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/UpcomingViewController.o",
+    "swift-dependencies" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/UpcomingViewController.swiftdeps",
+    "swiftmodule" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/UpcomingViewController~partial.swiftmodule"
+  },
+  "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/DEV2(Netflix clone)/Controllers/General/SearchBarViewController.swift" : {
+    "const-values" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/SearchBarViewController-628af046c076359adf6a0a4ff7358cf6.swiftconstvalues",
+    "dependencies" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/SearchBarViewController-628af046c076359adf6a0a4ff7358cf6.d",
+    "diagnostics" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/SearchBarViewController-628af046c076359adf6a0a4ff7358cf6.dia",
+    "index-unit-output-path" : "/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/SearchBarViewController-628af046c076359adf6a0a4ff7358cf6.o",
+    "llvm-bc" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/SearchBarViewController-628af046c076359adf6a0a4ff7358cf6.bc",
+    "object" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/SearchBarViewController-628af046c076359adf6a0a4ff7358cf6.o",
+    "swift-dependencies" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/SearchBarViewController-628af046c076359adf6a0a4ff7358cf6.swiftdeps",
+    "swiftmodule" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/SearchBarViewController-628af046c076359adf6a0a4ff7358cf6~partial.swiftmodule"
+  },
+  "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/DEV2(Netflix clone)/Managers/APICaller.swift" : {
+    "const-values" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/APICaller.swiftconstvalues",
+    "dependencies" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/APICaller.d",
+    "diagnostics" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/APICaller.dia",
+    "index-unit-output-path" : "/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/APICaller.o",
+    "llvm-bc" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/APICaller.bc",
+    "object" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/APICaller.o",
+    "swift-dependencies" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/APICaller.swiftdeps",
+    "swiftmodule" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/APICaller~partial.swiftmodule"
+  },
+  "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/DEV2(Netflix clone)/Models/Movie.swift" : {
+    "const-values" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/Movie.swiftconstvalues",
+    "dependencies" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/Movie.d",
+    "diagnostics" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/Movie.dia",
+    "index-unit-output-path" : "/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/Movie.o",
+    "llvm-bc" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/Movie.bc",
+    "object" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/Movie.o",
+    "swift-dependencies" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/Movie.swiftdeps",
+    "swiftmodule" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/Movie~partial.swiftmodule"
+  },
+  "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/DEV2(Netflix clone)/Models/Tv.swift" : {
+    "const-values" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/Tv.swiftconstvalues",
+    "dependencies" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/Tv.d",
+    "diagnostics" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/Tv.dia",
+    "index-unit-output-path" : "/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/Tv.o",
+    "llvm-bc" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/Tv.bc",
+    "object" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/Tv.o",
+    "swift-dependencies" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/Tv.swiftdeps",
+    "swiftmodule" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/Tv~partial.swiftmodule"
+  },
+  "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/DEV2(Netflix clone)/Resources/Extensions.swift" : {
+    "const-values" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/Extensions.swiftconstvalues",
+    "dependencies" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/Extensions.d",
+    "diagnostics" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/Extensions.dia",
+    "index-unit-output-path" : "/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/Extensions.o",
+    "llvm-bc" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/Extensions.bc",
+    "object" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/Extensions.o",
+    "swift-dependencies" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/Extensions.swiftdeps",
+    "swiftmodule" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/Extensions~partial.swiftmodule"
+  },
+  "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/DEV2(Netflix clone)/SceneDelegate.swift" : {
+    "const-values" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/SceneDelegate.swiftconstvalues",
+    "dependencies" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/SceneDelegate.d",
+    "diagnostics" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/SceneDelegate.dia",
+    "index-unit-output-path" : "/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/SceneDelegate.o",
+    "llvm-bc" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/SceneDelegate.bc",
+    "object" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/SceneDelegate.o",
+    "swift-dependencies" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/SceneDelegate.swiftdeps",
+    "swiftmodule" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/SceneDelegate~partial.swiftmodule"
+  },
+  "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/DEV2(Netflix clone)/ViewModels/MovieViewModel.swift" : {
+    "const-values" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/MovieViewModel.swiftconstvalues",
+    "dependencies" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/MovieViewModel.d",
+    "diagnostics" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/MovieViewModel.dia",
+    "index-unit-output-path" : "/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/MovieViewModel.o",
+    "llvm-bc" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/MovieViewModel.bc",
+    "object" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/MovieViewModel.o",
+    "swift-dependencies" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/MovieViewModel.swiftdeps",
+    "swiftmodule" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/MovieViewModel~partial.swiftmodule"
+  },
+  "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/DEV2(Netflix clone)/Views/CollectionViewTableViewCell.swift" : {
+    "const-values" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/CollectionViewTableViewCell.swiftconstvalues",
+    "dependencies" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/CollectionViewTableViewCell.d",
+    "diagnostics" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/CollectionViewTableViewCell.dia",
+    "index-unit-output-path" : "/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/CollectionViewTableViewCell.o",
+    "llvm-bc" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/CollectionViewTableViewCell.bc",
+    "object" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/CollectionViewTableViewCell.o",
+    "swift-dependencies" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/CollectionViewTableViewCell.swiftdeps",
+    "swiftmodule" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/CollectionViewTableViewCell~partial.swiftmodule"
+  },
+  "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/DEV2(Netflix clone)/Views/FooterForTabBar.swift" : {
+    "const-values" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/FooterForTabBar.swiftconstvalues",
+    "dependencies" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/FooterForTabBar.d",
+    "diagnostics" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/FooterForTabBar.dia",
+    "index-unit-output-path" : "/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/FooterForTabBar.o",
+    "llvm-bc" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/FooterForTabBar.bc",
+    "object" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/FooterForTabBar.o",
+    "swift-dependencies" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/FooterForTabBar.swiftdeps",
+    "swiftmodule" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/FooterForTabBar~partial.swiftmodule"
+  },
+  "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/DEV2(Netflix clone)/Views/HeroTabBarHeaderview.swift" : {
+    "const-values" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/HeroTabBarHeaderview.swiftconstvalues",
+    "dependencies" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/HeroTabBarHeaderview.d",
+    "diagnostics" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/HeroTabBarHeaderview.dia",
+    "index-unit-output-path" : "/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/HeroTabBarHeaderview.o",
+    "llvm-bc" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/HeroTabBarHeaderview.bc",
+    "object" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/HeroTabBarHeaderview.o",
+    "swift-dependencies" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/HeroTabBarHeaderview.swiftdeps",
+    "swiftmodule" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/HeroTabBarHeaderview~partial.swiftmodule"
+  },
+  "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/DEV2(Netflix clone)/Views/TitleCollectionViewCell.swift" : {
+    "const-values" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/TitleCollectionViewCell.swiftconstvalues",
+    "dependencies" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/TitleCollectionViewCell.d",
+    "diagnostics" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/TitleCollectionViewCell.dia",
+    "index-unit-output-path" : "/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/TitleCollectionViewCell.o",
+    "llvm-bc" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/TitleCollectionViewCell.bc",
+    "object" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/TitleCollectionViewCell.o",
+    "swift-dependencies" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/TitleCollectionViewCell.swiftdeps",
+    "swiftmodule" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/TitleCollectionViewCell~partial.swiftmodule"
+  },
+  "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/DEV2(Netflix clone)/Views/UpcomingTitleTableViewCell.swift" : {
+    "const-values" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/UpcomingTitleTableViewCell.swiftconstvalues",
+    "dependencies" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/UpcomingTitleTableViewCell.d",
+    "diagnostics" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/UpcomingTitleTableViewCell.dia",
+    "index-unit-output-path" : "/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/UpcomingTitleTableViewCell.o",
+    "llvm-bc" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/UpcomingTitleTableViewCell.bc",
+    "object" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/UpcomingTitleTableViewCell.o",
+    "swift-dependencies" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/UpcomingTitleTableViewCell.swiftdeps",
+    "swiftmodule" : "/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/build/DEV2(Netflix clone).build/Debug-iphonesimulator/DEV2(Netflix clone).build/Objects-normal/x86_64/UpcomingTitleTableViewCell~partial.swiftmodule"
+  }
+}

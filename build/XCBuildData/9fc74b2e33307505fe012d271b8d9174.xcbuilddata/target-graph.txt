@@ -1,0 +1,18 @@
+Target dependency graph (7 targets)
+Target 'DEV2(Netflix clone)' in project 'DEV2(Netflix clone)'
+➜ Explicit dependency on target 'SDWebImageMapKit' in project 'SDWebImage'
+➜ Explicit dependency on target 'SDWebImage' in project 'SDWebImage'
+Target 'SDWebImage' in project 'SDWebImage'
+➜ Explicit dependency on target 'SDWebImage' in project 'SDWebImage'
+➜ Explicit dependency on target 'SDWebImage_SDWebImage' in project 'SDWebImage'
+Target 'SDWebImageMapKit' in project 'SDWebImage'
+➜ Explicit dependency on target 'SDWebImageMapKit' in project 'SDWebImage'
+➜ Explicit dependency on target 'SDWebImage_SDWebImageMapKit' in project 'SDWebImage'
+➜ Explicit dependency on target 'SDWebImage' in project 'SDWebImage'
+Target 'SDWebImageMapKit' in project 'SDWebImage'
+➜ Explicit dependency on target 'SDWebImage_SDWebImageMapKit' in project 'SDWebImage'
+➜ Explicit dependency on target 'SDWebImage' in project 'SDWebImage'
+Target 'SDWebImage' in project 'SDWebImage'
+➜ Explicit dependency on target 'SDWebImage_SDWebImage' in project 'SDWebImage'
+Target 'SDWebImage_SDWebImage' in project 'SDWebImage' (no dependencies)
+Target 'SDWebImage_SDWebImageMapKit' in project 'SDWebImage' (no dependencies)

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>colors</key>
+	<array/>
+	<key>images</key>
+	<array>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/DEV2(Netflix clone)/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameMoviePoster</string>
+			<key>relativePath</key>
+			<string>./MoviePoster.imageset</string>
+			<key>swiftSymbol</key>
+			<string>moviePoster</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/DEV2(Netflix clone)/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameNetflixLong</string>
+			<key>relativePath</key>
+			<string>./Netflix Long.imageset</string>
+			<key>swiftSymbol</key>
+			<string>netflixLong</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/DEV2(Netflix clone)/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameKingkong</string>
+			<key>relativePath</key>
+			<string>./kingkong.imageset</string>
+			<key>swiftSymbol</key>
+			<string>kingkong</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/DEV2(Netflix clone)/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameLegend</string>
+			<key>relativePath</key>
+			<string>./legend.imageset</string>
+			<key>swiftSymbol</key>
+			<string>legend</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/DEV2(Netflix clone)/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameNetflix</string>
+			<key>relativePath</key>
+			<string>./netflix.imageset</string>
+			<key>swiftSymbol</key>
+			<string>netflix</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/usear/Documents/Documents - usear’s MacBook Pro/DEV2(Netflix clone)/DEV2(Netflix clone)/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameTruman</string>
+			<key>relativePath</key>
+			<string>./truman.imageset</string>
+			<key>swiftSymbol</key>
+			<string>truman</string>
+		</dict>
+	</array>
+	<key>symbols</key>
+	<array/>
+</dict>
+</plist>

@@ -64,14 +64,14 @@ class SearchViewController: UIViewController {
             navigationItem.hidesSearchBarWhenScrolling = true
         }
     }
-    func whatHappendToText(searchBar: UISearchBar, textDidChange searchText: String?) {
-        if searchText == "" || searchText == nil {
-            searchBar.setShowsCancelButton(false, animated: true)
-        }else{
-           
-            searchBar.setShowsCancelButton(true, animated: true)
-        }
-    }
+//    func whatHappendToText(searchBar: UISearchBar, textDidChange searchText: String?) {
+//        if searchText == "" || searchText == nil {
+//            searchBar.setShowsCancelButton(false, animated: true)
+//        }else{
+//           
+//            searchBar.setShowsCancelButton(true, animated: true)
+//        }
+//    }
 
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
@@ -131,7 +131,7 @@ extension SearchViewController: UISearchResultsUpdating, ResultViewControllerDel
             !query.trimmingCharacters(in: .whitespaces).isEmpty,
             query.trimmingCharacters(in: .whitespaces).count > 3
         else {return}
-        whatHappendToText(searchBar: searchBar, textDidChange: query)
+//        whatHappendToText(searchBar: searchBar, textDidChange: query)
         APICaller.shared.getSearchedResult(search: query) { results in
             switch results{
                 

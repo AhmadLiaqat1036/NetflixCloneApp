@@ -12,7 +12,7 @@ class HeroTabBarHeaderview: UIView {
     let heroImageView: UIImageView = {
         
        let image = UIImageView()
-        image.image = UIImage(named: "legend")
+        image.image = UIImage(named: "kingkong")
     
         image.contentMode = .scaleAspectFill
         image.clipsToBounds = true

@@ -79,7 +79,7 @@
 		5774C8FE2C17010D0056F56E /* YoutubeResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeResults.swift; sourceTree = "<group>"; };
 		5774C9002C171EBA0056F56E /* TitlePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewController.swift; sourceTree = "<group>"; };
 		5774C9022C172B4E0056F56E /* TitlePreviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewModel.swift; sourceTree = "<group>"; };
-		5774C9442C1862340056F56E /* NetflixCloneModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NetflixCloneModel.xcdatamodel; sourceTree = "<group>"; };
+		5774C9442C1862340056F56E /* NetflixCloneModel.xcdatamodel */ = {isa = PBXFileReference; explicitFileType = wrapper.xcdatamodeld; path = NetflixCloneModel.xcdatamodel; sourceTree = "<group>"; };
 		5774C9462C186BA30056F56E /* DataPersistanceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPersistanceManager.swift; sourceTree = "<group>"; };
 		57A6535B2BFB481F00169682 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 		57A6535D2BFB62C900169682 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };

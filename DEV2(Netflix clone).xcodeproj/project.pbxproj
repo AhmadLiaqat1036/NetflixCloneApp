@@ -55,6 +55,7 @@
 		57A52B342C35502600268E84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57A52B182C35502500268E84 /* LaunchScreen.storyboard */; };
 		57A52B352C35502600268E84 /* NetflixCloneModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 57A52B192C35502500268E84 /* NetflixCloneModel.xcdatamodeld */; };
 		57A52B362C35502600268E84 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A52B1A2C35502500268E84 /* SceneDelegate.swift */; };
+		57A52B392C35511B00268E84 /* NetflixCloneModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 57A52B372C35511B00268E84 /* NetflixCloneModel.xcdatamodeld */; };
 		57A6535C2BFB481F00169682 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A6535B2BFB481F00169682 /* APICaller.swift */; };
 		57A6535E2BFB62C900169682 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A6535D2BFB62C900169682 /* Movie.swift */; };
 		57A653602BFB6FAA00169682 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A6535F2BFB6FAA00169682 /* Extensions.swift */; };
@@ -133,6 +134,7 @@
 		57A52B172C35502500268E84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57A52B1A2C35502500268E84 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		57A52B1C2C35502500268E84 /* NetflixCloneModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NetflixCloneModel.xcdatamodel; sourceTree = "<group>"; };
+		57A52B382C35511B00268E84 /* NetflixCloneModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NetflixCloneModel.xcdatamodel; sourceTree = "<group>"; };
 		57A6535B2BFB481F00169682 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 		57A6535D2BFB62C900169682 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		57A6535F2BFB6FAA00169682 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -205,6 +207,7 @@
 				577116602BF606A20031C132 /* LaunchScreen.storyboard */,
 				577116632BF606A20031C132 /* Info.plist */,
 				5774C9432C1862340056F56E /* NetflixCloneModel.xcdatamodeld */,
+				57A52B372C35511B00268E84 /* NetflixCloneModel.xcdatamodeld */,
 				57A52B1B2C35502500268E84 /* DEV2(Netflix clone) */,
 			);
 			path = "DEV2(Netflix clone)";
@@ -563,6 +566,7 @@
 				57A52B212C35502600268E84 /* UpcomingViewController.swift in Sources */,
 				57A52B2D2C35502600268E84 /* FooterForTabBar.swift in Sources */,
 				5771168D2BF60B410031C132 /* DownloadsViewController.swift in Sources */,
+				57A52B392C35511B00268E84 /* NetflixCloneModel.xcdatamodeld in Sources */,
 				57A52B352C35502600268E84 /* NetflixCloneModel.xcdatamodeld in Sources */,
 				57A52AF72C354DB800268E84 /* NetflixCloneModel.xcdatamodeld in Sources */,
 				57A52B2F2C35502600268E84 /* TitleCollectionViewCell.swift in Sources */,
@@ -969,6 +973,17 @@
 				57A52B1C2C35502500268E84 /* NetflixCloneModel.xcdatamodel */,
 			);
 			currentVersion = 57A52B1C2C35502500268E84 /* NetflixCloneModel.xcdatamodel */;
+			name = NetflixCloneModel.xcdatamodeld;
+			path = "/Users/usear/Documents/GitHub/NetflixCloneApp/DEV2(Netflix clone)/NetflixCloneModel.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		57A52B372C35511B00268E84 /* NetflixCloneModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				57A52B382C35511B00268E84 /* NetflixCloneModel.xcdatamodel */,
+			);
+			currentVersion = 57A52B382C35511B00268E84 /* NetflixCloneModel.xcdatamodel */;
 			name = NetflixCloneModel.xcdatamodeld;
 			path = "/Users/usear/Documents/GitHub/NetflixCloneApp/DEV2(Netflix clone)/NetflixCloneModel.xcdatamodeld";
 			sourceTree = "<group>";

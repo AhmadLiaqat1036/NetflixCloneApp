@@ -11,4 +11,6 @@ struct TitlePreviewViewModel{
     let title:String
     let overview:String
     let youtubeView: VideoElement
+    let downloadButtonHidden:Bool?
+    let type: String
 }

@@ -11,4 +11,5 @@ struct MovieViewModel{
     let posterPath: String
     let title:String
     let description:String
+    let index: IndexPath?
 }

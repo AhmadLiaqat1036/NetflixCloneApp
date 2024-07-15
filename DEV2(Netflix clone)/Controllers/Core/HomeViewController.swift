@@ -6,7 +6,7 @@
 //
 
 import UIKit
-
+import MBProgressHUD
 
 enum Sections: Int{
     case TrendingMovie = 0,
@@ -15,6 +15,7 @@ enum Sections: Int{
 }
 class HomeViewController: UIViewController {
     
+
     private var randomTrendingMovie: Movie?
     private var headerView:HeroTabBarHeaderview?
     
@@ -23,17 +24,19 @@ class HomeViewController: UIViewController {
     private let hometableView:UITableView = {
         let table = UITableView(frame: .zero, style: .grouped)
         table.register(CollectionViewTableViewCell.self, forCellReuseIdentifier: CollectionViewTableViewCell.identifier)
+        table.backgroundColor = .systemGray6
+        table.separatorStyle = .none
         return table
     }()
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        
         view.addSubview(hometableView)
+        showHud("Loading")
         hometableView.delegate = self
         hometableView.dataSource = self
         configureNavBar()
-        headerView = HeroTabBarHeaderview(frame: CGRect(x: 0, y: 0, width: view.bounds.width, height: 490))
+        headerView = HeroTabBarHeaderview(frame: CGRect(x: 0, y: 0, width: view.bounds.width, height: 470))
+        headerView?.delegate = self
         hometableView.tableHeaderView = headerView
         hometableView.tableFooterView = FooterForTabBar(frame: CGRect(x: 0, y: 0, width: view.bounds.width, height:70))
         configureHeaderView()
@@ -44,7 +47,10 @@ class HomeViewController: UIViewController {
             case .success(let movies):
                 let movie = movies.randomElement()
                 self?.randomTrendingMovie = movie
-                self?.headerView?.configure(with: MovieViewModel(posterPath: movie?.posterPath ?? "", title: movie?.title ?? "", description: movie?.overview ?? ""))
+                self?.headerView?.configure(with: movie!)
+                DispatchQueue.main.async {
+                    self?.hideHUD()
+                }
             case .failure(let error):
                 print(error.localizedDescription)
             }
@@ -54,10 +60,6 @@ class HomeViewController: UIViewController {
         var image = UIImage(named: "netflix")
         image = image?.withRenderingMode(.alwaysOriginal)
         navigationItem.leftBarButtonItem = UIBarButtonItem(image: image, style: .plain, target: nil, action: .none)
-        navigationItem.rightBarButtonItems = [
-            UIBarButtonItem(image: UIImage(systemName: "person"), style: .done, target: nil, action: .none),
-            UIBarButtonItem(image: UIImage(systemName: "play.circle"), style: .done, target: nil, action: .none)
-        ]
         navigationController?.navigationBar.tintColor = .black
     }
     
@@ -168,14 +170,87 @@ extension HomeViewController: CollectionViewTableViewCellDelegate{
         DispatchQueue.main.async{ [weak self] in
             let vc = TitlePreviewViewController()
             
+            
             vc.configure(with: model)
             self?.navigationController?.pushViewController(vc, animated: true)
         }
     }
+    func hideHudInCollection() {
+        MBProgressHUD.hide(for: view, animated: true)
+    }
     
-    
+    func showHudInCollection(_ message: String) {
+        let hud = MBProgressHUD.showAdded(to: view, animated: true)
+        
+        hud.animationType = .zoom
+        hud.contentColor = .systemRed
+        hud.bezelView.layer.cornerRadius = 40
+        hud.isUserInteractionEnabled = true
+        hud.isMultipleTouchEnabled = false
+        hud.backgroundColor = .black.withAlphaComponent(0.3)
+    }
 }
+
 #Preview("HomeViewController") {
     var controller = HomeViewController()
     return controller
+}
+
+
+extension HomeViewController {
+    func showHud(_ message: String) {
+        let hud = MBProgressHUD.showAdded(to: view, animated: true)
+        hud.label.text = message
+        hud.animationType = .zoom
+        hud.contentColor = .systemRed
+        hud.bezelView.layer.cornerRadius = 40
+        hud.isUserInteractionEnabled = true
+        hud.isMultipleTouchEnabled = false
+        hud.backgroundColor = .black.withAlphaComponent(0.3)
+    }
+
+    func hideHUD() {
+        MBProgressHUD.hide(for: self.view, animated: true)
+    }
+}
+extension HomeViewController: HeroTabBarHeaderviewDelegate{
+    func pushVC(vc: TitlePreviewViewController) {
+        navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    func showHUDForHeaderDownload(_ message: String) {
+        let hud = MBProgressHUD.showAdded(to: view, animated: true)
+        hud.label.text = message
+        hud.animationType = .zoom
+        hud.contentColor = .systemRed
+        hud.bezelView.layer.cornerRadius = 40
+        hud.isUserInteractionEnabled = true
+        hud.isMultipleTouchEnabled = false
+        hud.backgroundColor = .black.withAlphaComponent(0.3)
+    }
+    
+    func dismissHUDForHeaderDownload() {
+        MBProgressHUD.hide(for: view, animated: true)
+    }
+    
+    func playButtontapped(title: String) {
+        showHud("")
+        APICaller.shared.getMovies(with: title) { [weak self] result in
+            switch result{
+            case .success(let videoElement):
+                DispatchQueue.main.async {
+                    let vc = WatchViewController()
+                    vc.configure(with: TitlePreviewViewModel(title: "", overview: "", youtubeView: videoElement, downloadButtonHidden: false, type: ""))
+                    self?.navigationController?.pushViewController(vc, animated: true)
+                    self?.hideHUD()
+                }
+                
+            case.failure(let error):
+                print(error.localizedDescription)
+            }
+        }
+
+    }
+    
+    
 }

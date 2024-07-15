@@ -6,9 +6,14 @@
 //
 
 import UIKit
+import MBProgressHUD
 
 protocol CollectionViewTableViewCellDelegate:AnyObject{
     func collectionViewTableViewCellDidTapCell(_ cell: CollectionViewTableViewCell, model :TitlePreviewViewModel)
+    
+    func hideHudInCollection()
+    
+    func showHudInCollection(_ message: String)
 }
 
 class CollectionViewTableViewCell: UITableViewCell {
@@ -24,6 +29,7 @@ class CollectionViewTableViewCell: UITableViewCell {
         layout.scrollDirection = .horizontal
         let collection = UICollectionView(frame: .zero, collectionViewLayout: layout)
         collection.register(TitleCollectionViewCell.self, forCellWithReuseIdentifier: TitleCollectionViewCell.identifier)
+        collection.backgroundColor = .systemGray6
         return collection
     }()
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
@@ -72,7 +78,7 @@ class CollectionViewTableViewCell: UITableViewCell {
             DataPersistanceManager.shared.downloadTvWith(model: Tvs[indexPath.row]) { result in
                 switch result{
                 case .success(()):
-                    print("Downloaded Tv...")
+                    NotificationCenter.default.post(name: Notification.Name("downloaded"), object: nil)
                 case .failure(let error):
                     print(error.localizedDescription)
                 }
@@ -119,28 +125,36 @@ extension CollectionViewTableViewCell: UICollectionViewDelegate, UICollectionVie
         return cell
     }
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        delegate?.showHudInCollection("")
         collectionView.deselectItem(at: indexPath, animated: true)
         let title :String
         let overview:String
+        let type:String
         switch sectionInTableView{
         case Sections.Popular.rawValue, Sections.Upcoming.rawValue, Sections.TrendingMovie.rawValue:
             let movie = movies[indexPath.row]
             overview = movie.overview
             title = movie.title
+            type = movie.mediaType ?? "movie"
         case Sections.TrendingTv.rawValue, Sections.TopRated.rawValue:
             let tv = Tvs[indexPath.row]
             overview = tv.overview
             title = tv.name
+            type = tv.mediaType ?? "movie"
         default:
             title = ""
             overview = ""
+            type = ""
         }
         APICaller.shared.getMovies(with: title + " trailer") { [weak self] result in
             switch result{
             case .success(let video):
                
                 guard let strongSelf = self else {return}
-                self?.delegate?.collectionViewTableViewCellDidTapCell(strongSelf, model: TitlePreviewViewModel(title: title, overview: overview, youtubeView: video))
+                self?.delegate?.collectionViewTableViewCellDidTapCell(strongSelf, model: TitlePreviewViewModel(title: title, overview: overview, youtubeView: video, downloadButtonHidden: true, type: type))
+                DispatchQueue.main.async{
+                    self?.delegate?.hideHudInCollection()
+                }
             case .failure(let error):
                 print(error.localizedDescription)
                 }

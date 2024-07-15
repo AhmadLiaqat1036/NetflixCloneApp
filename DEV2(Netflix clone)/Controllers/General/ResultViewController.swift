@@ -80,7 +80,7 @@ extension ResultViewController:UICollectionViewDelegate, UICollectionViewDataSou
         APICaller.shared.getMovies(with: title.title) { [weak self] result in
             switch result{
             case .success(let videoElement):
-                self?.delegate?.resultViewControllerDidTapItem(TitlePreviewViewModel(title: title.title, overview: title.overview, youtubeView: videoElement))
+                self?.delegate?.resultViewControllerDidTapItem(TitlePreviewViewModel(title: title.title, overview: title.overview, youtubeView: videoElement, downloadButtonHidden: true, type: title.mediaType ?? "movie"))
                 
             case.failure(let error):
                 print(error.localizedDescription)

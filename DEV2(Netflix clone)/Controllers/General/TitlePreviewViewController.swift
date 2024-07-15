@@ -7,7 +7,17 @@
 
 import UIKit
 import WebKit
+import MBProgressHUD
+
+protocol TitlePreviewViewControllerDelegate: AnyObject{
+    func downloadMovie(title: String, type: String)
+}
+
 class TitlePreviewViewController: UIViewController {
+    
+    var delegate: TitlePreviewViewControllerDelegate?
+    var titleMovie = ""
+    var type = ""
     
     private let titleLabel: UILabel = {
        let label = UILabel()
@@ -30,7 +40,7 @@ class TitlePreviewViewController: UIViewController {
         view.translatesAutoresizingMaskIntoConstraints = false
         return view
     }()
-    private let downloadButton:UIButton = {
+    private lazy var downloadButton:UIButton = {
        let button = UIButton()
         button.setTitle("Download", for: .normal)
         button.backgroundColor = .red
@@ -38,9 +48,9 @@ class TitlePreviewViewController: UIViewController {
         button.layer.cornerRadius = 8
         button.layer.masksToBounds = true
         button.translatesAutoresizingMaskIntoConstraints = false
+        button.addTarget(self, action: #selector(downloadTapped), for: .touchUpInside)
         return button
     }()
-
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -88,6 +98,16 @@ class TitlePreviewViewController: UIViewController {
         overviewLabel.text = model.overview
         guard let url = URL(string: "https://www.youtube.com/embed/\(model.youtubeView.id.videoId ?? "")")else {return}
         webView.load(URLRequest(url: url))
+        downloadButton.isHidden = model.downloadButtonHidden ?? false
+        titleMovie = model.title
+        type = model.type
+        
+        
     }
-
+    @objc func downloadTapped(){
+        downloadButton.isHidden = true
+        delegate?.downloadMovie(title: titleMovie, type: type)
+        
+    }
 }
+

@@ -7,8 +7,15 @@
 
 import UIKit
 import SDWebImage
+protocol HeroTabBarHeaderviewDelegate: AnyObject{
+    func playButtontapped(title: String)
+    func showHUDForHeaderDownload(_ message: String)
+    func dismissHUDForHeaderDownload()
+    func pushVC(vc: TitlePreviewViewController)
+}
 class HeroTabBarHeaderview: UIView {
-//hello test commit
+    var delegate: HeroTabBarHeaderviewDelegate?
+    var movie: Movie?
     let heroImageView: UIImageView = {
         
        let image = UIImageView()
@@ -17,12 +24,14 @@ class HeroTabBarHeaderview: UIView {
         image.contentMode = .scaleAspectFill
         image.clipsToBounds = true
         image.layer.cornerRadius = 8
+        image.layer.borderWidth=1
+        image.layer.borderColor = UIColor.opaqueSeparator.cgColor
         image.translatesAutoresizingMaskIntoConstraints = false
         return image
     }()
     let backgroundImage: UIView = {
        let back = UIView()
-        back.backgroundColor = .systemGray3
+        back.backgroundColor = .systemGray6
         return back
     }()
     
@@ -30,13 +39,22 @@ class HeroTabBarHeaderview: UIView {
         let gradient = CAGradientLayer()
         gradient.colors=[
             UIColor.clear.cgColor,
-            UIColor.systemBackground.cgColor
+            UIColor.systemFill.cgColor,
+            UIColor.systemGray6.cgColor
         ]
         
         gradient.frame = bounds
         layer.addSublayer(gradient)
     }
-    private let playButton = {
+    let stackView: UIStackView = {
+        let stack = UIStackView()
+        stack.spacing = 20
+        stack.alignment = .fill
+        stack.distribution = .fillEqually
+        stack.translatesAutoresizingMaskIntoConstraints = false
+        return stack
+    }()
+    private lazy var playButton = {
      let pButton = UIButton()
         pButton.setTitle("Play", for: .normal)
         pButton.titleLabel?.font = .systemFont(ofSize: 16,weight: .medium)
@@ -46,9 +64,10 @@ class HeroTabBarHeaderview: UIView {
         pButton.layer.borderWidth = 1
         pButton.layer.cornerRadius = 4
         pButton.translatesAutoresizingMaskIntoConstraints = false
+        pButton.addTarget(self, action: #selector(watchButton), for: .touchUpInside)
         return pButton
     }()
-    private let downloadButton = {
+    private lazy var downloadButton = {
      let pButton = UIButton()
         pButton.setTitle("Download", for: .normal)
         pButton.titleLabel?.font = .systemFont(ofSize: 16, weight: .medium)
@@ -58,55 +77,110 @@ class HeroTabBarHeaderview: UIView {
         pButton.layer.borderWidth = 1
         pButton.layer.cornerRadius = 4
         pButton.translatesAutoresizingMaskIntoConstraints = false
+        pButton.addTarget(self, action: #selector(downloadButtonPressed), for: .touchUpInside)
         return pButton
+    }()
+    lazy var imagetap: UITapGestureRecognizer = {
+        let gesture = UITapGestureRecognizer()
+        gesture.numberOfTapsRequired = 1
+        gesture.numberOfTouchesRequired = 1
+        gesture.addTarget(self, action: #selector(imageTapped))
+        return gesture
     }()
     override init(frame: CGRect) {
         super.init(frame: frame)
         addSubview(backgroundImage)
         addSubview(heroImageView)
         addGradient()
-        addSubview(playButton)
-        addSubview(downloadButton)
+        addGestureRecognizer(imagetap)
+        addSubview(stackView)
+        stackView.addArrangedSubview(playButton)
+        stackView.addArrangedSubview(downloadButton)
         applyConstraints()
     }
-    public func configure(with model: MovieViewModel){
-        guard let url = URL(string: "https://image.tmdb.org/t/p/w185\(model.posterPath)") else {
+    public func configure(with model: Movie){
+        guard let url = URL(string: "https://image.tmdb.org/t/p/w185\(model.posterPath ?? "")") else {
             print("url not correct")
             return}
         heroImageView.sd_setImage(with: url, completed: nil)
+        movie = model
     }
     private func applyConstraints(){
-        let playButtonConstraints = [
-            playButton.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 60),
-            playButton.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -5),
-            playButton.widthAnchor.constraint(equalToConstant: 100),
-            playButton.heightAnchor.constraint(equalToConstant: 35)
-        ]
-        let downloadButtonConstraints = [
-            downloadButton.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -60),
-            downloadButton.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -5),
-            downloadButton.widthAnchor.constraint(equalToConstant: 100),
-            playButton.heightAnchor.constraint(equalToConstant: 35)
-        ]
+//        let playButtonConstraints = [
+//            playButton.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 60),
+//            playButton.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -5),
+//            playButton.widthAnchor.constraint(equalToConstant: 100),
+//            playButton.heightAnchor.constraint(equalToConstant: 35)
+//        ]
+//        let downloadButtonConstraints = [
+//            downloadButton.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -60),
+//            downloadButton.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -5),
+//            downloadButton.widthAnchor.constraint(equalToConstant: 100),
+//            playButton.heightAnchor.constraint(equalToConstant: 35)
+//        ]
         let heroImageConstraints = [
-            heroImageView.leadingAnchor.constraint(equalTo: backgroundImage.leadingAnchor, constant: 20),
-            heroImageView.trailingAnchor.constraint(equalTo: backgroundImage.trailingAnchor, constant: -20),
+            heroImageView.leadingAnchor.constraint(equalTo: backgroundImage.leadingAnchor, constant: 50),
+            heroImageView.trailingAnchor.constraint(equalTo: backgroundImage.trailingAnchor, constant: -50),
             heroImageView.topAnchor.constraint(equalTo: backgroundImage.topAnchor, constant: 30),
             heroImageView.bottomAnchor.constraint(equalTo: downloadButton.topAnchor, constant: -3),
             heroImageView.bottomAnchor.constraint(equalTo: playButton.topAnchor, constant: -3)
         ]
-        NSLayoutConstraint.activate(playButtonConstraints)
-        NSLayoutConstraint.activate(downloadButtonConstraints)
+        let stackViewConstraints = [
+            stackView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 60),
+            stackView.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -60),
+            stackView.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -5),
+            stackView.heightAnchor.constraint(equalToConstant: 35)
+        ]
+//        NSLayoutConstraint.activate(playButtonConstraints)
+//        NSLayoutConstraint.activate(downloadButtonConstraints)
         NSLayoutConstraint.activate(heroImageConstraints)
+        NSLayoutConstraint.activate(stackViewConstraints)
     }
    
     override func layoutSubviews() {
         super.layoutSubviews()
         backgroundImage.frame = bounds
-//        heroImageView.frame = bounds
     }
     required init?(coder: NSCoder) {
         fatalError()
     }
 
+    @objc func watchButton(){
+        delegate?.playButtontapped(title: movie?.title ?? "")
+    }
+    @objc func downloadButtonPressed(){
+        downloadButton.isHidden = true
+        delegate?.showHUDForHeaderDownload("Downloading")
+        DataPersistanceManager.shared.downloadMovieWith(model: movie!) { result in
+            switch result{
+            case .success(()):
+                NotificationCenter.default.post(name: Notification.Name("downloaded"), object: nil)
+            case .failure(let error):
+                print(error.localizedDescription)
+            }
+        }
+        DispatchQueue.main.async{[weak self] in
+            self?.delegate?.dismissHUDForHeaderDownload()
+        }
+    }
+    @objc func imageTapped(){
+        delegate?.showHUDForHeaderDownload("")
+        
+        APICaller.shared.getMovies(with: movie?.title ?? "") { [weak self] result in
+            switch result{
+            case .success(let videoElement):
+                DispatchQueue.main.async {
+                    let vc = TitlePreviewViewController()
+                    vc.configure(with: TitlePreviewViewModel(title: self?.movie?.title ?? "", overview: self?.movie?.overview ?? "", youtubeView: videoElement, downloadButtonHidden: true, type: self?.movie?.mediaType ?? "movie"))
+                    self?.delegate?.pushVC(vc: vc)
+                    
+                   
+                    self?.delegate?.dismissHUDForHeaderDownload()
+                }
+                
+            case.failure(let error):
+                print(error.localizedDescription)
+            }
+        }
+    }
 }

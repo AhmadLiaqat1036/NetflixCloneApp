@@ -6,17 +6,26 @@
 //
 
 import UIKit
+import MBProgressHUD
+
+protocol UpcomingTitleTableViewCellDelegate: AnyObject{
+    func watchButtonTapped(index:IndexPath)
+}
 
 class UpcomingTitleTableViewCell: UITableViewCell {
     
+    var indexPath: IndexPath?
+    
+    weak var delegate: UpcomingTitleTableViewCellDelegate?
     static let identifier = "UpcomingTitleTableViewCell"
-    private let playButton:UIButton = {
+    private lazy var playButton:UIButton = {
        let button = UIButton()
         button.setImage(UIImage(systemName: "play.circle", withConfiguration: UIImage.SymbolConfiguration(pointSize: 25)), for: .normal)
         button.translatesAutoresizingMaskIntoConstraints = false
         button.tintColor = .systemRed
         button.setContentCompressionResistancePriority(UILayoutPriority(rawValue: 1000), for: .horizontal)
         button.setContentCompressionResistancePriority(UILayoutPriority(rawValue: 1000), for: .vertical)
+        button.addTarget(self, action: #selector(watchMovie), for: .touchUpInside)
         return button
     }()
     private let image:UIImageView = {
@@ -84,11 +93,16 @@ class UpcomingTitleTableViewCell: UITableViewCell {
         image.sd_setImage(with: url, completed: nil)
         titleLabel.text = model.title
         subTitleLabel.text = model.description
-        
-        
+        indexPath = model.index
+    }
+    @objc func watchMovie(){
+        delegate?.watchButtonTapped(index: indexPath!)
+        print("watch tapped...")
     }
     required init?(coder: NSCoder) {
+        
         fatalError()
     }
     
 }
+

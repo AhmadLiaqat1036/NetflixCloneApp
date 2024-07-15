@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import MBProgressHUD
 
 class DownloadsViewController: UIViewController {
     
@@ -55,9 +56,9 @@ extension DownloadsViewController: UITableViewDelegate, UITableViewDataSource{
         guard let cell = tableView.dequeueReusableCell(withIdentifier: UpcomingTitleTableViewCell.identifier, for: indexPath) as? UpcomingTitleTableViewCell else{
             return UITableViewCell()
         }
-        
+        cell.delegate = self
         let title = titles[indexPath.row]
-        cell.configure(with: MovieViewModel(posterPath: title.poster_path ?? "", title: title.title ?? title.original_title ?? "", description: title.overview ?? ""))
+        cell.configure(with: MovieViewModel(posterPath: title.poster_path ?? "", title: title.title ?? title.original_title ?? "", description: title.overview ?? "", index: indexPath))
         return cell
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -81,7 +82,7 @@ extension DownloadsViewController: UITableViewDelegate, UITableViewDataSource{
         }
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
+        showHud("")
         tableView.deselectRow(at: indexPath, animated: true)
         
         
@@ -94,13 +95,52 @@ extension DownloadsViewController: UITableViewDelegate, UITableViewDataSource{
                     vc.configure(with: TitlePreviewViewModel(
                         title: title?.title ?? title?.original_title ?? "",
                         overview: title?.overview ?? "",
-                        youtubeView: videoElement))
+                        youtubeView: videoElement, downloadButtonHidden: true, type: title?.media_type ?? "movie"))
                     self?.navigationController?.pushViewController(vc, animated: true)
+                    self?.hideHUD()
                 }
                 
             case.failure(let error):
                 print(error.localizedDescription)
             }
         }
+    }
+}
+extension DownloadsViewController {
+    func showHud(_ message: String) {
+        let hud = MBProgressHUD.showAdded(to: view, animated: true)
+        
+        hud.animationType = .zoom
+        hud.contentColor = .systemRed
+        hud.bezelView.layer.cornerRadius = 40
+        hud.isUserInteractionEnabled = true
+        hud.isMultipleTouchEnabled = false
+        hud.backgroundColor = .black.withAlphaComponent(0.3)
+    }
+
+    func hideHUD() {
+        MBProgressHUD.hide(for: view, animated: true)
+    }
+}
+extension DownloadsViewController: UpcomingTitleTableViewCellDelegate{
+    func watchButtonTapped(index:IndexPath) {
+        print("inside delagate func")
+        showHud("")
+        let title = titles[index.row]
+        APICaller.shared.getMovies(with: title.title ?? "") { [weak self] result in
+            switch result{
+            case .success(let videoElement):
+                DispatchQueue.main.async {
+                    let vc = WatchViewController()
+                    vc.configure(with: TitlePreviewViewModel(title: title.title ?? "", overview: title.overview ?? "", youtubeView: videoElement, downloadButtonHidden: false, type: title.media_type ?? "movie"))
+                    self?.navigationController?.pushViewController(vc, animated: true)
+                    self?.hideHUD()
+                }
+                
+            case.failure(let error):
+                print(error.localizedDescription)
+            }
+        }
+        
     }
 }

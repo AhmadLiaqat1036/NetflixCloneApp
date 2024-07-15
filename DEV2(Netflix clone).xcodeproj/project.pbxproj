@@ -29,6 +29,9 @@
 		5774C9472C186BA30056F56E /* DataPersistanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5774C9462C186BA30056F56E /* DataPersistanceManager.swift */; };
 		578536A02C3FB8B50048E516 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 5785369F2C3FB8B50048E516 /* SDWebImage */; };
 		578536A22C3FB8B50048E516 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 578536A12C3FB8B50048E516 /* SDWebImageMapKit */; };
+		578536A52C3FF9900048E516 /* MBProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 578536A42C3FF9900048E516 /* MBProgressHUD */; };
+		578536A82C41584C0048E516 /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578536A72C41584C0048E516 /* GreenViewController.swift */; };
+		578536AA2C4504100048E516 /* WatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578536A92C45040F0048E516 /* WatchViewController.swift */; };
 		57A6535C2BFB481F00169682 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A6535B2BFB481F00169682 /* APICaller.swift */; };
 		57A6535E2BFB62C900169682 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A6535D2BFB62C900169682 /* Movie.swift */; };
 		57A653602BFB6FAA00169682 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A6535F2BFB6FAA00169682 /* Extensions.swift */; };
@@ -81,6 +84,8 @@
 		5774C9002C171EBA0056F56E /* TitlePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewController.swift; sourceTree = "<group>"; };
 		5774C9022C172B4E0056F56E /* TitlePreviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewModel.swift; sourceTree = "<group>"; };
 		5774C9462C186BA30056F56E /* DataPersistanceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPersistanceManager.swift; sourceTree = "<group>"; };
+		578536A72C41584C0048E516 /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
+		578536A92C45040F0048E516 /* WatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchViewController.swift; sourceTree = "<group>"; };
 		57A6535B2BFB481F00169682 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 		57A6535D2BFB62C900169682 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		57A6535F2BFB6FAA00169682 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -96,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				578536A52C3FF9900048E516 /* MBProgressHUD in Frameworks */,
 				578536A22C3FB8B50048E516 /* SDWebImageMapKit in Frameworks */,
 				578536A02C3FB8B50048E516 /* SDWebImage in Frameworks */,
 			);
@@ -248,6 +254,8 @@
 			children = (
 				5774C8FA2C05E8E30056F56E /* ResultViewController.swift */,
 				5774C9002C171EBA0056F56E /* TitlePreviewViewController.swift */,
+				578536A72C41584C0048E516 /* GreenViewController.swift */,
+				578536A92C45040F0048E516 /* WatchViewController.swift */,
 			);
 			path = General;
 			sourceTree = "<group>";
@@ -271,6 +279,7 @@
 			packageProductDependencies = (
 				5785369F2C3FB8B50048E516 /* SDWebImage */,
 				578536A12C3FB8B50048E516 /* SDWebImageMapKit */,
+				578536A42C3FF9900048E516 /* MBProgressHUD */,
 			);
 			productName = "DEV2(Netflix clone)";
 			productReference = 577116522BF6069D0031C132 /* DEV2(Netflix clone).app */;
@@ -346,6 +355,7 @@
 			mainGroup = 577116492BF6069D0031C132;
 			packageReferences = (
 				5774C8F52C05E1440056F56E /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				578536A32C3FF98F0048E516 /* XCRemoteSwiftPackageReference "MBProgressHUD" */,
 			);
 			productRefGroup = 577116532BF6069D0031C132 /* Products */;
 			projectDirPath = "";
@@ -395,12 +405,14 @@
 				5771168B2BF60B110031C132 /* SearchViewController.swift in Sources */,
 				5771165A2BF6069D0031C132 /* MainTabBarViewController.swift in Sources */,
 				577116942BF630800031C132 /* CollectionViewTableViewCell.swift in Sources */,
+				578536AA2C4504100048E516 /* WatchViewController.swift in Sources */,
 				57A6535C2BFB481F00169682 /* APICaller.swift in Sources */,
 				57A6536D2C00A0EF00169682 /* UpcomingTitleTableViewCell.swift in Sources */,
 				577116962BF7A20E0031C132 /* HeroTabBarHeaderview.swift in Sources */,
 				5771168D2BF60B410031C132 /* DownloadsViewController.swift in Sources */,
 				577116562BF6069D0031C132 /* AppDelegate.swift in Sources */,
 				5774C8FF2C17010D0056F56E /* YoutubeResults.swift in Sources */,
+				578536A82C41584C0048E516 /* GreenViewController.swift in Sources */,
 				57A653642BFCD0FA00169682 /* TitleCollectionViewCell.swift in Sources */,
 				57A6536B2BFDFD4200169682 /* FooterForTabBar.swift in Sources */,
 				57A653602BFB6FAA00169682 /* Extensions.swift in Sources */,
@@ -752,6 +764,14 @@
 				minimumVersion = 5.19.2;
 			};
 		};
+		578536A32C3FF98F0048E516 /* XCRemoteSwiftPackageReference "MBProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jdg/MBProgressHUD.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -764,6 +784,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 5774C8F52C05E1440056F56E /* XCRemoteSwiftPackageReference "SDWebImage" */;
 			productName = SDWebImageMapKit;
+		};
+		578536A42C3FF9900048E516 /* MBProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 578536A32C3FF98F0048E516 /* XCRemoteSwiftPackageReference "MBProgressHUD" */;
+			productName = MBProgressHUD;
 		};
 /* End XCSwiftPackageProductDependency section */
 
